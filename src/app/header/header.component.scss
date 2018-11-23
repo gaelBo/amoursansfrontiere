@@ -1,0 +1,38 @@
+
+section
+{
+ 
+   display: flex;
+   flex-wrap: nowrap; //les elts se resserrent tant quil peuvent 
+   justify-content: space-around;
+  //  align-items: flex-end;
+   color: #111;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+aside
+{
+    //text-align: justify;
+    background-color:lightblue;
+   // flex: 60%;
+   // height:10%;
+    box-shadow: 0px 5px 5px blue;
+    text-shadow: 2px 2px 4px red; //Ombrage du text
+    padding:auto;
+    margin-right:5%;
+    margin-left:2%;
+    //flex-wrap: nowrap;
+   // margin-left: 0%;
+   // position: 10px;
+
+}
+
+a{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+}
