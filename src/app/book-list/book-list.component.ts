@@ -9,15 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './book-list.component.html',
   styleUrls: ['./book-list.component.scss']
 })
- /*
-souscrit au Subject du service et déclenche sa première émission ;
-
-affiche la liste des livres, où chaque livre peut être cliqué pour en voir la page  SingleBookComponent ;
-
-permet de supprimer chaque livre en utilisant  removeBook() ;
-
-permet de naviguer vers  BookFormComponent  pour la création d'un nouveau livre.  
-  */
+ 
  
 export class BookListComponent implements OnInit {
 

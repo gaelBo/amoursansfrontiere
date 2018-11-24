@@ -14,7 +14,6 @@ p{
 .signature{
     text-align: right
 }
-//////////////////////////////////////////////////////
 .imageflottante
 {
     float: left;
@@ -26,7 +25,6 @@ p{
 
 body
 {
-   // background-image: url("logo.jpg");
     background-attachment: fixed; 
     background-repeat: no-repeat; 
     background-position: top right; 
@@ -37,8 +35,6 @@ body
     color: white;
     opacity: 1;
     border-radius: 10px;
-   // width: 500px
-   // text-align="center";
 }
 
 p[couleurspecifique]{
@@ -93,14 +89,4 @@ image{
 aside img
 {
 width: 90%
-}
-
-@media all and (max-device-width: 480px)
-{
-    /* Vos règles CSS pour les mobiles ici 
-    
-    // permet de faire en sorte que notre site s adapte a la 
-    resolution du device mobile 
-    <meta name="viewport" content="width=device-width" />
-    */
 }

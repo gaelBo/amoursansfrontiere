@@ -1,6 +1,3 @@
-
-/* Footer */
-
 footer
 {
     display: flex;
@@ -28,6 +25,7 @@ footer h1
 #mes_photos
 {
     width: 35%;
+    text-align: right;
 }
 
 #mes_amis
@@ -53,7 +51,6 @@ img{
 
 #mes_amis ul
 {
-    //list-style-image: url('images/ico_liensexterne.png');
     padding-left: 2px;
 }
 

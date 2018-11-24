@@ -1,11 +1,9 @@
-
 section
 {
  
    display: flex;
-   flex-wrap: nowrap; //les elts se resserrent tant quil peuvent 
+   flex-wrap: nowrap; 
    justify-content: space-around;
-  //  align-items: flex-end;
    color: #111;
     font-family: 'Helvetica Neue', sans-serif; 
     font-weight: bold; 
@@ -16,23 +14,19 @@ section
 
 aside
 {
-    //text-align: justify;
-    background-color:lightblue;
-   // flex: 60%;
-   // height:10%;
+    background-image: url("banniere.jpeg");
     box-shadow: 0px 5px 5px blue;
-    text-shadow: 2px 2px 4px red; //Ombrage du text
+    text-shadow: 2px 2px 4px rgb(204, 33, 33); 
+    color: white;
     padding:auto;
     margin-right:5%;
     margin-left:2%;
-    //flex-wrap: nowrap;
-   // margin-left: 0%;
-   // position: 10px;
-
+   
 }
 
 a{
     font-style: italic;
     font-size: medium;
     font-weight: bold;
+    color: blue;
 }
