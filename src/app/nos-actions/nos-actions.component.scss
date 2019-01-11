@@ -1,7 +1,8 @@
 .a_toutes_pages{
     font-size:x-large;
 }
-h1{
+h2{
+    text-align: center;
     color: blue;
 }
 
@@ -12,6 +13,9 @@ h3{
 .important{
    font-family: 'Times New Roman', Times, serif;
    color:red; 
+}
+.elt1_nosAction{
+   // display: flex;
 }
 
 .moins_important{
