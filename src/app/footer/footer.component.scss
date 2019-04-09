@@ -1,4 +1,7 @@
-footer
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*footer
 {
     display: flex;
     padding-top: 10px;
@@ -6,6 +9,12 @@ footer
     justify-content: center
 }
 
+.footer{
+	display: flex;
+    padding-top: 10px;
+    background-color: rgb(235, 240, 241);
+    justify-content: center
+}
 footer p, footer ul
 {
     font-size: 0.8em;
@@ -58,4 +67,15 @@ img{
 {
     text-decoration: none;
     color: #760001;
+}*/
+.text-footer{
+	background-color: rgb(235, 240, 241);
+}
+.footer-copyright{
+  background-color:#3498db;
+  height:30px;
+  vertical-align:center;
+  color:white;
+  font-size:14px;
+  font-weight:bold;
 }

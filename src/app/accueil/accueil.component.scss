@@ -1,25 +1,7 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
 h2{
     text-align: center;
     color: blue;
-}
-.verse_biblique{
-    float: left;
-    background-color: lightblue;
-}
-
-.conteneur_accueil{
-    display: flex;
-    align-content: space-around;
-    padding: 2%;
-}
-.elt1_accueil{
-   // display: flex;
-    align-content: space-around;
-    padding: 2%;
 }

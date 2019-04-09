@@ -23,7 +23,7 @@
         <div class="form-group">
           <h4>Ajouper un document </h4>
           <input type="file" (change)="detectFiles($event)"
-                 class="form-control" accept="image/*">
+                 class="custom-file-input" accept="image/*">
           <p class="text-success" *ngIf="fileUploaded">Doc.téléchargé</p>
       </div>
       <button class="btn btn-success" [disabled]="bookForm.invalid || fileIsUploading"
@@ -33,3 +33,4 @@
       </form>
     </div>
   </div>
+ <br><br>

@@ -4,10 +4,11 @@ body
     background-repeat: no-repeat; 
     background-position: top right; 
     font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .introduction{
     color: brown;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-synthesis: style;
     
 }
@@ -29,7 +30,9 @@ p{
 {
     clear: both;
 }
-
+.container-table{
+    background-color:lightgrey;
+}
 
 .moins_important{
     background-color: black;
@@ -93,3 +96,4 @@ aside img
 {
 width: 90%
 }
+
